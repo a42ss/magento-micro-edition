@@ -1,6 +1,6 @@
 {
   "name": "a42/magento-micro-edition",
-  "version": "0.24.1",
+  "version": "1.243.1",
   "description": "This is a fork of the magento/magento2 project orientated to microservice architecture.",
   "type": "project",
   "license": [
@@ -12,7 +12,7 @@
     "sort-packages": true
   },
   "require": {
-    "a42/product-magento-micro-edition": "dev-master"
+    "a42/product-magento-micro-edition": "~1.243.1"
   },
   "require-dev": {
     "allure-framework/allure-phpunit": "~1.4",
