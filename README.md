@@ -1,6 +1,8 @@
-# Magento 2 Micro Edition
+# Magento 2 Micro Edition - project
 
 This is a fork of the magento/magento2 project orientated to microservice architecture. This is a ready-to-use Magento 2 framework with a light number of dependencies and a minimal number of Magento modules installed. This is offering an easy-to-use solution to spin up Magento 2 projects as microservices.
+
+This package is a composer project package configured to easily boostrap new Magento Microservices instances. 
 
 ## Original project details
 

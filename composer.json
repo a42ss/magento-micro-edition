@@ -12,14 +12,7 @@
     "sort-packages": true
   },
   "require": {
-    "magento/magento2-base": "2.4.3-p1",
-    "magento/framework": "103.0.*",
-    "colinmollenhour/cache-backend-file": "~1.4.5",
-    "colinmollenhour/cache-backend-redis": "~1.14.2",
-    "colinmollenhour/credis": "~1.12.1",
-    "colinmollenhour/php-redis-session-abstract": "~1.4.4",
-    "composer/composer": "^1.9 || ^2.0",
-    "monolog/monolog": "^1.17"
+    "a42/product-magento-micro-edition": "dev-master"
   },
   "require-dev": {
     "allure-framework/allure-phpunit": "~1.4",
@@ -38,7 +31,7 @@
     "symfony/finder": "^5.2"
   },
   "replace": {
-    "magento/product-enterprise-edition": "*",
+    "magento/enterprise-edition": "*",
     "magento/community-edition": "*"
   },
   "conflict": {
@@ -75,8 +68,8 @@
       "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
     }
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "prefer-stable": false,
   "repositories": [
     {
       "type": "composer",
